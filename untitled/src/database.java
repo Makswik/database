@@ -1,7 +1,6 @@
 public class database {
     private String color;
     private int dataReadingSpeed;
-
     public database(String color, int dataReadingSpeed) {
         this.color = color;
         this.dataReadingSpeed = dataReadingSpeed;
@@ -18,5 +17,4 @@ public class database {
     public void setdataReadingSpeed(int dataReadingSpeed) {
         this.dataReadingSpeed = dataReadingSpeed;
     }
-
 }
